@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+.align-start {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-end {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dec {
+  text-decoration: navajowhite;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.change-width {
+  width: 100%;
+}
+
+.background-hotel {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url('hero.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-white {
+  color: white;
+}
+
+.nav-size {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.nav-gap {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 35px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.btn-header {
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  max-width: fit-content;
+}
+
+.padding-border {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.fit {
+  max-width: fit-content;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.padding-section {
+  padding-top: 12rem;
+  padding-bottom: 20rem;
+}
+
+.h4-size {
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+.h1-size {
+  font-size: 6em;
+  font-weight: 600;
+}
+
+.p-max {
+  max-width: 45rem;
+}
+
+.text-gap {
+  display: flex;
+  gap: 1rem;
+}
+
+.padding-normal {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background-food {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url('food.webp');
+  height: 400px;
+  background-size: 100%;
+}
+
+.background-drink {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url('drink.webp');
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+}
+
+.background-stay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url('room.webp');
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+.margin-negative {
+  margin-top: -250px;
+}
+
+.card-padding {
+  padding: 2rem;
+}
+
+.h3-size {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.main-color {
+  color: black;
+}
+
+.h2-size {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.h2-max {
+  max-width: 40rem;
+}
+
+.img-bed {
+  max-width: 70%;
+  min-height: 600px;
+  object-fit: cover;
+}
+
+.p-size {
+  line-height: 1.5;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.background-color {
+  background-color: #f6f4ec;
+}
+
+.background-drinks {
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url('drink2.webp');
+}
+
+.background-dark {
+  background-color: #161616;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.min-fix {
+  min-width: 600px;
+}
+
+.align-top {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.info-footer {
+  margin-top: 5rem;
+}
+
+.p-small {
+  max-width: 25rem;
+  text-align: right;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
